@@ -27,7 +27,12 @@ function Main() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography
+              align="center"
+              variant="h6"
+              component="div"
+              sx={{ flexGrow: 1 }}
+            >
               Visit Albania
             </Typography>
             <Button color="inherit">Login</Button>
@@ -38,9 +43,6 @@ function Main() {
       <Drawer open={opened} anchor="left" onClose={() => setOpened(false)}>
         <DrawerContent setOpened={setOpened} />
       </Drawer>
-
-      <div style={{ background: "red", height: "3000px" }}></div>
-      <span id="id">sadsad</span>
     </Box>
   );
 }

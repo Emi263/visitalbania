@@ -38,7 +38,6 @@ function DrawerContent({ setOpened }) {
             component="a"
             onClick={() => setOpened(false)}
             key={text}
-            href="#id"
           >
             <ListItemIcon>{icon}</ListItemIcon>
             <ListItemText primary={text} />
