@@ -2,6 +2,7 @@ import Main from "../components/Main";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
 import Images from "../components/Images";
+import CardList from "../components/Cards/CardList";
 
 export default function Home() {
   const theme = createTheme({
@@ -23,6 +24,7 @@ export default function Home() {
     <ThemeProvider theme={theme}>
       <Main />
       <Images />
+      <CardList />
     </ThemeProvider>
   );
 }
